@@ -1,0 +1,7 @@
+.alerts-container{
+    z-index: 10002;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+}

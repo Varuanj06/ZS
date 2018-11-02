@@ -1,0 +1,399 @@
+/* ====================================================================== *
+      LIGHT GRAY FOR BACKGROUND AND GLOBAL FONT COLOR
+ * ====================================================================== */
+
+  body, 
+  #menu-page-wraper{
+    background: #f3f3f3 !important;
+  }
+
+  body,
+  .media-box .media-boxes-load-more-button,
+  .media-box .media-box-content>.media-box-text,
+  .media-box .media-box-container>.media-box-text,
+  .media-boxes-load-more-button,
+  .product_bottom a{
+    color: #5d5d5d !important;
+    text-decoration: none !important;
+  }
+
+/* ====================================================================== *
+      DARKER GRAY
+ * ====================================================================== */  
+
+  .media-boxes-load-more-button,
+  .alert-info,
+  .media-box-size span{
+    background: #e6e6e6 !important;
+  }
+
+  .image-with-dimensions, 
+  .media-box-little-grid>div{
+    background-color: #e6e6e6 !important;
+  }
+
+/* ====================================================================== *
+      NEW RED COLOR
+ * ====================================================================== */
+
+  .btn-green,
+  nav .container-fluid,
+  .slideout_menu{
+    background: #d33d0f !important;
+    color: #fff !important;
+  }
+
+/* ====================================================================== *
+      MENU STYLE
+ * ====================================================================== */  
+
+  .navbar-nav>li>a{
+    color: #fff !important;
+    text-align: center;
+    padding: 9px 15px;
+    font-size: 11px; 
+    line-height: 11px;
+  }
+  .navbar-nav>li>a span{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  body.modal-open .navbar {
+    padding-right: 15px !important;
+  }
+
+/* ====================================================================== *
+      FOTTER STYLE
+ * ====================================================================== */    
+
+  .page-footer{
+
+	background-image: url(https://www.aramex.com/Sitefinity/WebsiteTemplates/aramex/App_Themes/aramex/images/shipment-detail/map-bg.jpg);
+	}
+  .page-footer,
+  .page-footer a{
+    color: #8c8c8c !important;
+  }
+
+/* ====================================================================== *
+      MEDIA BOX STYLE
+ * ====================================================================== */      
+
+  .media-box>.media-box-container, .keyword-item>div {
+    -webkit-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    -o-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    -ms-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+  }
+  .media-box-container{
+    border-radius: 1px;
+  }
+
+  .media-box-content{
+    background: #fff !important;
+  }
+
+  .media-box-content hr{
+    border: none;
+  }
+  .product_bottom{
+    margin: -10px -20px !important;
+    background: #e6e6e6 !important;
+    padding: 0;
+  }
+  .product_bottom a{
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .media-box .count{
+    font-size: 16px;
+  }
+  .heart-selected {
+    color: #d10000;
+  }
+
+  #grid .thumbnail-overlay .fa {
+    background: #5d5d5d !important;
+  }
+
+/* ====================================================================== *
+      PRODUCT FEED STYLE
+ * ====================================================================== */      
+
+  .to-top{
+    background-color: rgba(115, 115, 115, .6) !important;
+  }
+
+  .custom-filter li{
+    margin-right: -3px;
+  }
+  .custom-filter li a{
+    background: #e6e6e6 !important;
+    border: 1px solid #c7c7c7 !important;
+    color: #929292 !important;
+  }
+  .filters_container .custom-filter li>a.selected{
+    color: #5d5d5d !important;
+    border: 1px solid #929292 !important;
+  }
+
+/* ====================================================================== *
+      COLOR PICKER
+ * ====================================================================== */      
+
+  .media-box-size{
+    border: none !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 0px !important;
+    line-height: 27px !important;
+  }
+
+  .media-boxes-load-more-button, .alert-info, .media-box-size span {
+    background: #f9f9f9 !important;
+  }
+
+  .size-selected span{
+    background: #dadada !important;
+  }
+
+/* ====================================================================== *
+      PRODUCT FEED COUNTDOWN
+ * ====================================================================== */   
+  
+  .countdown_keyword_global{
+    overflow: hidden;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  /* CUSTOM LAYOUT */
+
+  .is-countdown{
+    text-align: center;
+  }
+  .cd_time{
+    display: inline-block;
+    text-align: center;
+    margin: 0 7px;
+    color: #d33d0f;
+    font-size: 28px;
+    font-weight: 100;
+  }
+  .cd_time:last-child{
+    text-align: left;
+  }
+  .cd_time:last-child .cd_time_txt{
+    margin-left: 2px;
+  }
+  .cd_time_txt{
+    display: block;
+    font-size: 11px !important;
+    color: #5d5d5d;
+    font-weight: 500;
+    margin-top: -5px;
+  }
+
+/* ====================================================================== *
+      CART
+ * ====================================================================== */  
+
+  .cart-item{
+    background: #fff;
+
+    -webkit-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    -o-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    -ms-box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+    box-shadow: 0 1px 2px rgba(34,25,25,0.6) !important;
+  }
+
+  .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+      background-color: #fbfbfb;
+  }
+
+  .table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td{
+      border-top: 1px solid #c3c3c3;
+  }
+
+  .table thead>tr>th {
+    border-bottom: 2px solid #c3c3c3;
+  }
+
+  textarea, input[type="text"], .form-control {
+    background-color: #fbfbfb;
+    border-color: #bdbdbd !important;
+  }
+
+  textarea:focus, 
+  input[type="text"]:focus{
+    border-color: #bdbdbd;
+  }
+
+  .manager_card{
+    background: #eaeaea !important;
+    color: gray !important;
+  }
+
+  .manager_card_title {
+    border: 1px solid gray;
+  }
+
+  .btn-group .btn {
+    background: #d6d6d6;
+    color: gray !important;
+  }
+
+  .btn-group .active {
+    background-color: #c7c7c7 !important;
+  }
+
+  .btn-group .btn:hover {
+    background-color: #d0d0d0;
+  } 
+
+  .cart-head {
+    background: #eaeaea !important;
+    color: gray !important;
+  }
+
+  .tabs-container>.btn-sm{
+    background: #9a9a9a !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tabs-container {
+      padding: 0 10px !important;
+    }
+    .cart-item{
+      /*overflow-x: scroll;*/
+    }
+    .cart-item .table th,
+    .cart-item .table td{
+      padding: 4px;
+    }
+  }
+
+/* ====================================================================== *
+      TIMELINE
+ * ====================================================================== */    
+
+  .cd-timeline-content{
+    background: #eaeaea !important;
+  }
+
+  .cd-timeline-content::before {
+    border-right: 7px solid #eaeaea !important;
+  }
+
+  @media only screen and (min-width: 1170px) {
+    .cd-timeline-content::before {
+      border-color: transparent !important;
+      border-left-color: #eaeaea !important;
+    }
+    .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+      border-color: transparent !important;
+      border-right-color: #eaeaea !important;
+    }
+  }
+
+  #cd-timeline::before{
+    background: #eaeaea !important;
+  }
+
+/* ====================================================================== *
+      MODAL
+ * ====================================================================== */    
+
+  .modal-content{
+    background: #fff !important;
+  }
+
+  .modal-header, .modal-footer{
+    border-color: #c3c3c3 !important;
+  }
+
+/* ====================================================================== *
+      MESSAGES
+ * ====================================================================== */    
+
+  .conversation, .chat{
+    background: #fff !important;
+  }
+
+  .conversation .alert,
+  .conversation-item{
+    border-bottom: 5px solid #efefef !important;
+    color: gray !important;
+  }
+
+  .nav-tabs>li>a{
+    color: gray !important;
+  }
+
+  .nav-tabs {
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #d6d6d6;
+    color: gray !important;
+  }
+
+  .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+    background-color: #dedede !important;
+    border-color: transparent !important;
+    border-bottom-color: #d6d6d6 !important;
+  }
+
+  .msg,
+  .self .msg, .other .msg {
+    background: #eaeaea !important;
+  }
+
+  .other .msg:before {
+    border: 5px solid #eaeaea !important;
+    border-left-color: transparent !important;
+    border-bottom-color: transparent !important;
+  }
+  
+  .self .msg {
+    background: #d33d0f !important;
+  }
+
+  .self .msg:after {
+    border: 5px solid #d33d0f !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+  }
+  .select_order {
+    background: #d8d8d8 !important;
+    color: gray !important;
+  }
+  
+  #particles-js {
+    background: #d0d0d0 !important;
+  }
+
+  .noUi-pips{
+    color: #fff !important;
+  }
+  .noUi-marker, .noUi-marker-large, .noUi-marker-sub {
+    background: #fff !important;
+  }
+  [disabled] .noUi-connect {
+    background: #dedddd !important;
+  }
+
+
+
+
+
+
+

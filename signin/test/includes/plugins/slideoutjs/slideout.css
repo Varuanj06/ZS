@@ -1,0 +1,165 @@
+/* ====================================================================== *
+      NEEDED CODE FOR PLUGIN
+ * ====================================================================== */
+
+  .fixed-element {
+    backface-visibility: hidden;
+    position: fixed;
+    z-index:2;
+    transition: transform 300ms ease;
+  }
+
+  .fixed-open {
+    transform: translate3d(256px, 0px, 0px);
+  }
+
+  .slideout-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 256px;
+    overflow-y: auto; /* scroll */
+    -webkit-overflow-scrolling: touch;
+    display: none;
+  }
+
+  .slideout-panel {
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+  }
+
+  .slideout-open,
+  .slideout-open body,
+  .slideout-open .slideout-panel {
+    overflow: hidden;
+  }
+
+  .slideout-open .slideout-menu {
+    display: block;
+  }
+
+  .js-slideout-toggle{
+    cursor: pointer;
+  }
+
+/* ====================================================================== *
+      PAGE WRAPER
+ * ====================================================================== */
+
+  #menu-page-wraper{
+    background: #FBF8E9;
+    margin-top: 50px;
+  }
+
+/* ====================================================================== *
+      MENU STYLE
+ * ====================================================================== */
+
+  .slideout_menu {
+    display: none;
+    background: #5C3B13;
+    /*
+    background-color: #1D1F20;
+    background-image: linear-gradient(145deg, #1D1F20, #404348);
+    */
+  }
+
+  .slideout_menu a {
+    color: #4B5;
+    text-decoration: none;
+  }
+
+  .slideout_menu a {
+    color: #fff;
+  }
+
+  .menu-header {
+    border-bottom: 1px solid #2a2d2f;
+    padding: 20px;
+    background-size: 32px;
+  }
+
+  .menu-header-title {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
+
+  .menu-section {
+    margin: 50px 0 0 0;
+  }
+
+  .menu-section-title {
+    text-transform: uppercase;
+    color: #85888d;
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    margin:0;
+  }
+
+  .menu-section-list {
+    padding:0;
+    margin: 10px 0;
+    list-style:none;
+  }
+
+  .menu-section-list a {
+    display: block;
+    padding: 15px 20px;
+  }
+
+/* ====================================================================== *
+      SUBMENU
+ * ====================================================================== */
+
+  .open_sub_menu{
+    cursor: pointer;
+  }
+
+  .sub_menu{
+    display: none;
+    list-style: none;
+    padding-left: 0px;
+    background: rgba(0,0,0,.13);
+  }
+
+  a.open_sub_menu .label{
+    margin-top: 3px;
+    opacity: 0;
+
+    -webkit-transition: opacity .15s ease-in-out;
+       -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+         -o-transition: opacity .15s ease-in-out;
+            transition: opacity .15s ease-in-out;
+  }
+
+  .open a.open_sub_menu .label{
+    opacity: 1;
+  }
+
+  .sub_menu a{
+    color: rgba(255,255,255,.8);
+    padding-left: 30px;
+  }
+
+  .sub_menu a:hover{
+    color: #fff;
+  }
+
+  .sub_menu ul a{
+    padding-left: 50px;
+  }
+
+  .sub_menu span{
+    font-size: 11px;
+    display: block;
+    color: #bba785;
+  }
+
